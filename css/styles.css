@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background-color: #ef8172;
+    color: #eee;
+}
+.container-fluid{
+    padding: 3% 15% 5%;
+    margin: auto ;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Bold';
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+.title-image{
+    width:300px;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Features */
+#features{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+} 
+
+.feature-box > p{
+    color: #8f8f8f;
+    font-size: 0.9rem;
+}
+.feature-box > i{
+    color: #ef8172;
+    font-size: 3rem;
+    padding: 20px;
+}
+.feature-box > i:hover{
+    color: #ff4068;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+/* Press */
+
+#press{
+    background-color: #ef8172; 
+    text-align: center;
+    padding-bottom: 3%;   
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+#pricing{
+    padding: 100px;
+}
+.flexbutton{
+    display: block;
+    width: 100%;
+}
+
+
+/* Footer */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5rem 10rem;
+}
+#cta>h3{
+    color: #fff;
+    font-weight: bold;
+    
+}
+#cta>.btn{
+    margin: 1rem;
+}
+
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    margin: 60px auto;
+}
+#footer> p{
+    font-size: small;
+}
+.social>i{
+    margin: 10px;
+}
+@media (max-width:1088px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: translate(0);
+        width: 15rem;
+        padding: 20px;
+    }
+    h2{
+        font-size:x-large;
+    }
+    #cta{
+        padding: 50px 10px;
+    }
+}
+
+@media (max-width:507px){
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size:xx-large ;
+    }
+    #press{
+        display: flex;
+        flex-direction: row;
+    }
+    #pricing{
+        margin: 0;
+        padding: 30px ;
+    }
+}
